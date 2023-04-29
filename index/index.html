@@ -86,15 +86,66 @@
     <title>MyAdmin - Index Page</title>
 </head>
 <body>
-    <div id="navbar_left">
-      <div id="header_navbar"></div>
-      <div id="footer_navbar"></div>
-    </div>
-    <div id="main">
-      <div id="header"></div>
-    </div>
-    <div id="aside">
-      <div id="header_aside"></div>
+    <!-- 
+    ISI PAGE FORM :
+    1. Dashboard
+    2. Page quiz (Soal, button jawaban)
+    3. Form Add Quiz (input text soal, input jawaban (button/input)
+    4. Page skor (Hasil perhitungan benar salah jawaban)
+    5. about
+    -->
+    <div id="container" class="grid-rows-3 sm:grid-cols-3 sm:flex bg-slate-200">
+        <div id="navbar" class="w-52 grid-rows-6 bg-[#493C95] m-2 rounded-2xl">
+          <div class="m-auto w-max p-3 text-center text-white">
+          <div id="header_navbar">
+            <img src="../img/logo.svg" alt="" class="w-20 mx-auto">
+          </div>
+          <div id="Main_navbar" class="pt-5">
+            <h3 class="text-left">MAIN</h3>
+            <div>
+              <a href="">Dashboard</a>
+            </div>
+            <div>
+              <a href="">Notifications</a>
+            </div>
+            <div>
+              <a href="">Customers</a>
+            </div>
+            <div>
+              <a href="">All Files</a>
+            </div>
+          </div>
+          <div id="Teams_navbar">
+            <h3 class="text-left">TEAMS</h3>
+            <div>
+              <img src="" alt="">
+              <p>Gede Astu Nugraha</p>
+              <p>IGN Tri Guna Yoga</p>
+              <p>Kevin Sianturi</p>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-left">SETTINGS</h3>
+            <div id="tasks">
+              <a href="">Tasks</a>
+            </div>
+            <div id="plans">
+              <a href="">Plans</a>
+            </div>
+            <div id="Survey">
+              <a href="">Survey</a>
+            </div>
+          </div>
+          <div id="footer_navbar">
+            <div>
+              <img src="" alt="">
+              <a href="">Log Out</a>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div id="content" class="w-full">content</div>
+        <div id="aside" class="bg-blue-300 w-96">aside</div>
     </div>
 <!-- aosJS -->
 <script>
